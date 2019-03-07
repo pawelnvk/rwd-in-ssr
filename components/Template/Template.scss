@@ -1,0 +1,29 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: #888;
+  margin: 0 8px;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

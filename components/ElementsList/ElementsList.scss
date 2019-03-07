@@ -1,0 +1,23 @@
+@import 'shared';
+
+// Spacings
+
+.wrapper {
+  padding: 24px 0;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.button {
+  margin: 0 4px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

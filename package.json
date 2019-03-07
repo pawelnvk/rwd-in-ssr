@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "author": "Paweł Nowak",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bowser": "^2.0.0",
+    "classnames": "^2.2.6",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-responsive": "^6.0.1"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  }
+}

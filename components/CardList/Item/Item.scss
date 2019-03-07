@@ -1,0 +1,13 @@
+.wrapper {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #eee;
+  display: flex;
+  padding: 24px 16px;
+  margin-bottom: 10px;
+  text-decoration: none;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

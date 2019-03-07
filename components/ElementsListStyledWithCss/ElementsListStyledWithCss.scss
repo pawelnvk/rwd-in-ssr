@@ -1,0 +1,44 @@
+@import 'shared';
+
+.columnMain {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 30px;
+}
+
+.text {
+  @include on-sm-down {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.buttonMobileHidden {
+  @include on-sm-down {
+    display: none;
+  }
+}
+
+// Spacings
+
+.wrapper {
+  padding: 24px 0;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.button {
+  margin: 0 4px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
